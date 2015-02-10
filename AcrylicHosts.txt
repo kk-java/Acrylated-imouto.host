@@ -75,7 +75,7 @@
 68.232.44.96	a1.sndcdn.com	a2.sndcdn.com	a-v2.sndcdn.com	i1.sndcdn.com	i2.sndcdn.com	i3.sndcdn.com	i4.sndcdn.com	wis.sndcdn.com *.sndcdn.com
 203.77.190.0	soundcloud.hs.llnwd.net #JP CDN
 203.77.191.0	soundcloud.hs.llnwd.net #JP CDN
-111.119.3.1		soundcloud.hs.llnwd.net #JP CDN
+111.119.3.1	soundcloud.hs.llnwd.net #JP CDN
 111.119.3.129	soundcloud.hs.llnwd.net #JP CDN
 208.111.179.129	soundcloud.hs.llnwd.net #US CDN
 208.111.179.1	soundcloud.hs.llnwd.net #US CDN
@@ -183,6 +183,7 @@
 #DuckDuckGo START
 46.51.216.186	duckduckgo.com *.duckduckgo.com
 54.251.178.52 icons.duckduckgo.com images.duckduckgo.com
+96.227.124.36 flash.duckduckgo.com
 #DuckDuckGo END
 
 #Ixquick START
