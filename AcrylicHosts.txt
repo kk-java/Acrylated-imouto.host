@@ -213,7 +213,7 @@
 59.190.145.80	*.youtube.com youtube.com youtu.be *.youtube-nocookie.com *.ytimg.com manifest.googlevideo.com redirector.googlevideo.com redirector.c.youtube.com
 173.194.194.121 apiblog.youtube.com
 173.194.194.117 stage.data.youtube.com upload.video.google.com
-210.61.148.34 *.c.youtube.com *.googlevideo.com
+203.66.168.119 *.googlevideo.com
 #Youtube↑
 #Appspot↓
 173.194.194.141	appspot.com *.appspot.com *.withgoogle.com withgoogle.com *.googlelabs.com *.google.org www.thinkwithgoogle.com thinkwithgoogle.com
