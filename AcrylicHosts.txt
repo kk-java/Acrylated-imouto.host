@@ -65,14 +65,9 @@
 #Box.com END
 
 #SoundCloud START
-68.232.44.127	soundcloud.com
-68.232.44.127	api.soundcloud.com
-68.232.44.127	api-v2.soundcloud.com
-68.232.44.127	pages.soundcloud.com
 68.232.45.96	ec-media.soundcloud.com
-72.21.81.96 ec-media.soundcloud.com
 178.249.139.140	developers.soundcloud.com
-68.232.44.96	a1.sndcdn.com	a2.sndcdn.com	a-v2.sndcdn.com	i1.sndcdn.com	i2.sndcdn.com	i3.sndcdn.com	i4.sndcdn.com	wis.sndcdn.com *.sndcdn.com
+68.232.44.96	*.sndcdn.com
 203.77.190.0	soundcloud.hs.llnwd.net #JP CDN
 203.77.191.0	soundcloud.hs.llnwd.net #JP CDN
 111.119.3.1	soundcloud.hs.llnwd.net #JP CDN
@@ -86,8 +81,7 @@
 54.215.15.50	help.soundcloud.com
 66.6.42.22	status.soundcloud.com
 66.6.43.22	status.soundcloud.com
-68.232.44.127	eventlogger.soundcloud.com
-68.232.44.127 m.soundcloud.com *.soundcloud.com
+68.232.44.127 *.soundcloud.com
 #SoundCloud END
 
 #DeviantART START
@@ -219,8 +213,8 @@
 173.194.194.141	appspot.com *.appspot.com *.withgoogle.com withgoogle.com *.googlelabs.com *.google.org www.thinkwithgoogle.com thinkwithgoogle.com
 #Appspot↑
 #Googleusercontent↓
-203.208.49.170 lh?.googleusercontent.com ci?.googleusercontent.com doc-??-??-docs.googleusercontent.com googlecode.l.googleusercontent.com webcache.googleusercontent.com themes.googleusercontent.com *.ggpht.com
-173.194.194.197	*.googleusercontent.com yt3.ggpht.com yt4.ggpht.com
+203.208.49.170 lh?.googleusercontent.com ci?.googleusercontent.com doc-??-??-docs.googleusercontent.com googlecode.l.googleusercontent.com webcache.googleusercontent.com themes.googleusercontent.com lh?.ggpht.com
+173.194.194.197	*.googleusercontent.com *.ggpht.com
 #Googleusercontent↑
 #Gstatic↓
 203.208.49.174	gstatic.com *.gstatic.com csi.l.google.com
