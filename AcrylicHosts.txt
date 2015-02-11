@@ -210,7 +210,7 @@
 203.66.168.119 *.googlevideo.com
 #Youtube↑
 #Appspot↓
-173.194.194.141	appspot.com *.appspot.com *.withgoogle.com withgoogle.com *.googlelabs.com *.google.org www.thinkwithgoogle.com thinkwithgoogle.com
+173.194.196.141	appspot.com *.appspot.com *.withgoogle.com withgoogle.com *.googlelabs.com *.google.org www.thinkwithgoogle.com thinkwithgoogle.com
 #Appspot↑
 #Googleusercontent↓
 203.208.49.170 lh?.googleusercontent.com ci?.googleusercontent.com doc-??-??-docs.googleusercontent.com googlecode.l.googleusercontent.com webcache.googleusercontent.com themes.googleusercontent.com lh?.ggpht.com
@@ -244,9 +244,9 @@
 173.194.68.127 stun.l.google.com *.stun.l.google.com
 59.190.145.80 www.gwtproject.org 
 59.190.145.80 googledrive.com *.googledrive.com googlegroups.com *.googlegroups.com googleplus.com
-173.194.194.191	*.blogger.com blogger.com *.blogspot.??
-173.194.194.133 *.blogspot.com
-59.190.145.80	*.chromium.org chromium.org
+173.194.196.191	*.blogger.com blogger.com *.blogspot.??
+173.194.194.133 *.blogspot.com *.blogblog.com
+59.190.145.80	*.chromium.org chromium.org chrome.com *.chrome.com
 203.208.49.174 android.com www.android.com source.android.com market.android.com
 59.190.145.80	*.android.com www.androidify.com
 59.190.145.80	chrome.angrybirds.com
@@ -260,7 +260,7 @@
 203.208.49.174 google.org www.google.org
 203.208.49.174 google.cn *.google.cn *.google.com.cn
 59.190.145.80	panoramio.com 
-173.194.194.141 *.panoramio.com
+173.194.196.141 *.panoramio.com
 59.190.145.80	www.webmproject.org
 59.190.145.80	golang.org *.golang.org feeds.feedburner.com
 #Google other↑
