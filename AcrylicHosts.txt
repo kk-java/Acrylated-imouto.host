@@ -30,17 +30,15 @@
 #WordPress START
 66.155.11.243	wordpress.com
 68.232.44.111	s?.wp.com s.wordpress.org s.wordpress.com s?.wordpress.com
-72.21.91.111 i0.wp.com i1.wp.com
-192.0.77.2 i2.wp.com
+68.232.35.127 *.w.org
 68.232.44.119	s.stats.wordpress.com
 66.155.9.238	lb.wordpress.com zh.wordpress.com zh-sg.wordpress.com zh-cn.wordpress.com dashboard.wordpress.com forums.wordpress.com en.forums.wordpress.com en.blog.wordpress.com stats.wordpress.com wpcom.wordpress.com lucifr.wordpress.com botd2.wordpress.com r-login.wordpress.com
 #WordPress END
 
 #Microsoft Live START
 134.170.108.26	onedrive.live.com
-134.170.109.48	skyapi.onedrive.live.com
-134.170.108.224	storage.live.com
-#134.170.30.15	people.live.com
+204.79.197.213	skyapi.onedrive.live.com storage.live.com *.storage.live.com *.livefilestore.com
+68.232.34.200 *.vo.msecnd.net
 #Microsoft Live END
 
 #GitHub START
@@ -85,15 +83,15 @@
 #SoundCloud END
 
 #DeviantART START
-110.232.178.146 deviantart.com *.deviantart.com
+110.232.178.146 *.deviantart.com
 68.232.44.253 www.da-files.com www.da-ads.com
 68.232.45.40 fc0?.deviantart.net
 68.232.44.148 *.deviantart.net
 #DeviantART END
 
 #XDA START
-68.232.35.229 cdn.www.xda-developers.com
-68.232.35.96 cdn?.xda-developers.com clickcdn.xda-developers.com
+68.232.35.229 cdn.www.xda-developers.com img4.media.xda-developers.com
+68.232.35.96 cdn?.xda-developers.com cdn-img.xda-developers.com clickcdn.xda-developers.com
 #XDA END
 
 #Gravatar START
@@ -101,12 +99,12 @@
 #Gravatar END
 
 #Amazon S3 START
-54.231.65.24 s3.amazonaws.com
-54.231.232.217 s3-us-west-1.amazonaws.com
-54.231.164.72 s3-us-west-2.amazonaws.com
-54.231.225.9 s3-ap-northeast-1.amazonaws.com
-54.231.243.121 s3-ap-southeast-1.amazonaws.com
-54.231.252.28 s3-ap-southeast-2.amazonaws.com
+54.231.65.24 s3.amazonaws.com *.s3.amazonaws.com
+54.231.232.217 s3-us-west-1.amazonaws.com *.s3-us-west-1.amazonaws.com
+54.231.164.72 s3-us-west-2.amazonaws.com *.s3-us-west-2.amazonaws.com
+54.231.225.9 s3-ap-northeast-1.amazonaws.com *.s3-ap-northeast-1.amazonaws.com
+54.231.243.121 s3-ap-southeast-1.amazonaws.com *.s3-ap-southeast-1.amazonaws.com
+54.231.252.28 s3-ap-southeast-2.amazonaws.com *.s3-ap-southeast-2.amazonaws.com
 #Amazon S3 END
 
 #feedly START
@@ -147,12 +145,12 @@
 #Twitter END
 
 #Facebook START
-31.13.87.17	*.facebook.com facebook.com vpn.tfbnw.net
+31.13.87.17 *.facebook.com facebook.com vpn.tfbnw.net
 23.77.2.110 s-static.ak.facebook.com
 23.77.15.139 connect.facebook.net
 199.7.91.13 fbcdn.net
 31.13.87.20 *.xx.fbcdn.net *.xy.fbcdn.net
-203.80.97.18	*.ak.facebook.com *.fbcdn.net fb*-a.akamaihd.net
+203.80.97.18 *.ak.facebook.com *.fbcdn.net fb*-a.akamaihd.net
 203.80.97.18 a248.e.akamai.net
 #Facebook END
 
@@ -173,7 +171,7 @@
 #Flickr END
 
 #imgur START
-103.245.222.193	imgur.com *.imgur.com
+23.235.47.193	imgur.com *.imgur.com
 #imgur END
 
 #DuckDuckGo START
