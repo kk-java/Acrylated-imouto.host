@@ -1,13 +1,13 @@
 ﻿﻿#+BEGIN
-#+UPDATE_TIME 2015-02-11 22:00
+#+UPDATE_TIME 2015-02-12 19:00
 #+MESSAGE
 #######################################################################
 #
 #  Acrylated imouto.host
 #  #Ver : 2.27.0535.9
-#  #Update Time : 2015-02-11 22:00
+#  #Update Time : 2015-02-12 19:00
 #  #Fix & Bug : 
-#  # 2.27.0535.9: 修复GAE
+#  # 2.27.0535.9: 修复Facebook Twitter
 #
 #######################################################################
 #+MESSAGE_END
@@ -44,24 +44,24 @@
 #Microsoft Live END
 
 #GitHub START
-192.30.252.131	github.com
-192.30.252.131	www.github.com
+#192.30.252.131	github.com
+#192.30.252.131	www.github.com
 192.30.252.140 gist.github.com
 23.235.43.133 gist-assets.github.com
 192.30.252.144	nodeload.github.com
 103.245.222.133	raw.github.com
 103.245.222.133	documentcloud.github.com
 103.245.222.133	pages.github.com
-103.245.222.184	github.global.ssl.fastly.net
+#103.245.222.184 github.global.ssl.fastly.net
 103.245.222.133	*.github.io
 #GitHub END
 
 #Box.com START
 74.112.184.85 www.box.com
-74.112.184.90	box.com
+74.112.184.90 box.com
 74.112.184.88 app.box.com
 74.112.184.87 *.app.box.com
-74.112.184.70	*.box.com
+74.112.184.70 *.box.com
 #Box.com END
 
 #SoundCloud START
@@ -121,35 +121,36 @@
 #FlipBoard END
 
 #Twitter START
-8.25.195.22 vpn.twttr.com
 23.74.226.237 preview.cdn.twitter.com
 173.236.110.98 twitpic.com *.twitpic.com
-199.16.158.40 twitter.com www.twitter.com
-199.16.158.41 api.twitter.com
-199.16.158.42 *.twitter.com
-199.16.158.43 *.tweetdeck.com tweetdeck.com td.twitter.com tdweb.twitter.com tweetdeck.twitter.com
+199.7.83.42 vpn.twttr.com
+199.16.158.72 twitter.com www.twitter.com
+199.16.158.73 api.twitter.com
+185.45.5.45 *.twitter.com
+199.16.158.75 *.tweetdeck.com tweetdeck.com td.twitter.com tdweb.twitter.com tweetdeck.twitter.com
 199.16.158.76 t.co
-199.16.158.45 mobile.twitter.com
+199.16.158.77 mobile.twitter.com
 199.16.158.78 support.twitter.com
-199.16.158.47 r.twimg.com
-199.16.158.48 syndication.twimg.com
-199.16.158.49 syndication.twitter.com syndication-o.twimg.com cdn.syndication.twimg.com
-199.16.158.50 image-proxy-origin.twimg.com
-199.16.158.51 urls-real.api.twitter.com
-199.16.158.52 upload.twitter.com
-199.59.149.135 partnerdata.twttr.com
-199.59.149.221 first-tweets.com
-199.59.149.246 twtr.jp
+199.16.158.79 r.twimg.com
+199.16.158.80 syndication.twimg.com
+199.16.158.113 syndication.twitter.com syndication-o.twimg.com cdn.syndication.twimg.com
+199.16.158.82 image-proxy-origin.twimg.com
+199.16.158.83 urls-real.api.twitter.com
+199.16.158.84 upload.twitter.com
+192.30.252.129 partnerdata.twttr.com
+192.30.252.130 first-tweets.com
+192.30.252.131 twtr.jp
 199.96.57.6 platform.twitter.com cdn.api.twitter.com
 199.96.57.7 *.twimg.com
 199.96.57.8 cdn.syndication.twitter.com
 #Twitter END
 
 #Facebook START
-31.13.87.4	*.facebook.com facebook.com vpn.tfbnw.net fbcdn.net
+31.13.87.17	*.facebook.com facebook.com vpn.tfbnw.net
 23.77.2.110 s-static.ak.facebook.com
 23.77.15.139 connect.facebook.net
-31.13.87.5 *.xx.fbcdn.net *.xy.fbcdn.net
+199.7.91.13 fbcdn.net
+31.13.87.20 *.xx.fbcdn.net *.xy.fbcdn.net
 203.80.97.18	*.ak.facebook.com *.fbcdn.net fb*-a.akamaihd.net
 203.80.97.18 a248.e.akamai.net
 #Facebook END
@@ -197,14 +198,14 @@
 #Googleapis↑
 #Android↓
 173.194.194.197 googlehosted.com googlehosted.l.google.com
-59.190.145.80	*.googlehosted.com
+59.190.145.91	*.googlehosted.com
 173.194.193.188	mtalk.google.com mobile-gtalk.l.google.com
 173.194.194.193 m.google.com mobile.google.com mobile.l.google.com
 173.194.194.125	talk.google.com talkx.l.google.com talk.l.google.com
 173.194.193.211	proxy.googlezip.net ext.google.com
 #Android↑
 #Youtube↓
-59.190.145.80	*.youtube.com youtube.com youtu.be *.youtube-nocookie.com *.ytimg.com manifest.googlevideo.com redirector.googlevideo.com redirector.c.youtube.com
+59.190.145.91	*.youtube.com youtube.com youtu.be *.youtube-nocookie.com *.ytimg.com manifest.googlevideo.com redirector.googlevideo.com redirector.c.youtube.com
 173.194.194.121 apiblog.youtube.com
 173.194.194.117 stage.data.youtube.com upload.video.google.com
 203.66.168.119 *.googlevideo.com
@@ -220,7 +221,7 @@
 203.208.49.174	gstatic.com *.gstatic.com csi.l.google.com
 #Gstatic↑
 #Gmail↓
-59.190.145.80	gmail.com *.gmail.com *.googlemail.com
+59.190.145.91	gmail.com *.gmail.com *.googlemail.com
 74.125.207.109    gmail-pop.l.google.com
 74.125.69.16    pop.googlemail.com
 74.125.69.16    googlemail-pop.l.google.com
@@ -242,14 +243,14 @@
 173.194.194.121 ghs.google.com ghs.l.google.com ghs46.google.com ghs46.l.google.com
 173.194.194.86 orkut.com *.orkut.com
 173.194.68.127 stun.l.google.com *.stun.l.google.com
-59.190.145.80 www.gwtproject.org 
-59.190.145.80 googledrive.com *.googledrive.com googlegroups.com *.googlegroups.com googleplus.com
+59.190.145.91 www.gwtproject.org 
+59.190.145.91 googledrive.com *.googledrive.com googlegroups.com *.googlegroups.com googleplus.com
 173.194.196.191	*.blogger.com blogger.com *.blogspot.??
 173.194.194.133 *.blogspot.com *.blogblog.com
-59.190.145.80	*.chromium.org chromium.org chrome.com *.chrome.com
+59.190.145.91	*.chromium.org chromium.org chrome.com *.chrome.com
 203.208.49.174 android.com www.android.com source.android.com market.android.com
-59.190.145.80	*.android.com www.androidify.com
-59.190.145.80	chrome.angrybirds.com
+59.190.145.91	*.android.com www.androidify.com
+59.190.145.91	chrome.angrybirds.com
 203.208.49.174 g.co goo.gl plus.url.google.com
 203.208.49.174 accounts.google.com accounts.l.google.com
 203.208.49.174 code.google.com code.l.google.com googlecode.com *.googlecode.com googlesource.com *.googlesource.com
@@ -259,13 +260,13 @@
 203.208.49.174 mt?.google.com dl.google.com dl-ssl.google.com
 203.208.49.174 google.org www.google.org
 203.208.49.174 google.cn *.google.cn *.google.com.cn
-59.190.145.80	panoramio.com 
+59.190.145.91	panoramio.com 
 173.194.196.141 *.panoramio.com
-59.190.145.80	www.webmproject.org
-59.190.145.80	golang.org *.golang.org feeds.feedburner.com
+59.190.145.91	www.webmproject.org
+59.190.145.91	golang.org *.golang.org feeds.feedburner.com
 #Google other↑
 #Google Wildcards↓
-59.190.145.80 google.com *.google.com google.com.?? *.google.com.?? google.?? *.google.?? google.co.?? *.google.co.??
+59.190.145.91 google.com *.google.com google.com.?? *.google.com.?? google.?? *.google.?? google.co.?? *.google.co.??
 #Google Wildcards↑
 #Google Services END
 
