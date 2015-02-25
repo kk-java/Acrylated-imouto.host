@@ -1,13 +1,13 @@
 ﻿﻿#+BEGIN
-#+UPDATE_TIME 2015-02-18 16:00
+#+UPDATE_TIME 2015-02-25 22:22
 #+MESSAGE
 #######################################################################
 #
 #  Acrylated imouto.host
-#  #Ver : 2.27.0535.A
-#  #Update Time : 2015-02-18 16:00
+#  #Ver : 2.27.0535.B
+#  #Update Time : 2015-02-25 22:22
 #  #Fix & Bug : 
-#  # 2.27.0535.A: Happy Lunar New Year
+#  # 2.27.0535.B: Google, Instagram
 #
 #######################################################################
 #+MESSAGE_END
@@ -143,12 +143,17 @@
 #Facebook START
 203.80.97.18 *.ak.facebook.com *.ak.fbcdn.net
 199.7.91.13 fbcdn.net
-31.13.87.6 *.xx.fbcdn.net
-31.13.87.17 *.facebook.com facebook.com vpn.tfbnw.net
+31.13.87.6 *.fbcdn.net
+31.13.87.17 *.facebook.com facebook.com
 173.223.85.106 s-static.ak.facebook.com
 184.87.99.47 s-static.ak.fbcdn.net
 184.87.198.117 connect.facebook.net
 #Facebook END
+
+#Instagram START
+203.80.97.18 *.ak.instagram.com
+31.13.70.10 *.cdninstagram.com
+#Instagram END
 
 #Akamai START
 203.80.97.18 a248.e.akamai.net *.akamaihd.net akamai.cdn.ea.com
@@ -192,8 +197,8 @@
 #Google Services START
 #Googleapis↓
 216.58.220.65 *storage.googleapis.com
-216.58.220.42	googleapis.com *.googleapis.com
-203.208.49.163 mt0.googleapis.com mt1.googleapis.com mt2.googleapis.com mt3.googleapis.com fonts.googleapis.com ajax.googleapis.com
+216.58.220.42	googleapis.com *.googleapis.com *.clients6.google.com
+202.152.192.181 mt0.googleapis.com mt1.googleapis.com mt2.googleapis.com mt3.googleapis.com
 #Googleapis↑
 #Android↓
 216.58.220.65 googlehosted.com googlehosted.l.google.com
@@ -207,17 +212,16 @@
 202.152.192.181	*.youtube.com youtube.com youtu.be *.youtube-nocookie.com *.ytimg.com manifest.googlevideo.com redirector.googlevideo.com redirector.c.youtube.com
 173.194.194.121 apiblog.youtube.com
 173.194.194.117 stage.data.youtube.com upload.video.google.com
-203.66.168.119 *.googlevideo.com
+#203.66.168.119 *.googlevideo.com
 #Youtube↑
 #Appspot↓
 173.194.196.141	appspot.com *.appspot.com 
 #Appspot↑
 #Googleusercontent↓
-203.208.49.170 lh?.googleusercontent.com ci?.googleusercontent.com doc-??-??-docs.googleusercontent.com googlecode.l.googleusercontent.com webcache.googleusercontent.com themes.googleusercontent.com lh?.ggpht.com
 216.58.220.65	*.googleusercontent.com *.ggpht.com
 #Googleusercontent↑
 #Gstatic↓
-203.208.49.163	gstatic.com *.gstatic.com csi.l.google.com
+202.152.192.181	gstatic.com *.gstatic.com
 #Gstatic↑
 #Gmail↓
 202.152.192.181	gmail.com *.gmail.com *.googlemail.com
@@ -240,30 +244,23 @@
 #Google other↓
 64.233.189.192	supl.google.com 
 173.194.194.121 ghs.google.com ghs.l.google.com ghs46.google.com ghs46.l.google.com
-64.233.189.86 orkut.com *.orkut.com
+202.152.192.181 orkut.com *.orkut.com
 173.194.68.127 stun.l.google.com *.stun.l.google.com
 202.152.192.181 www.gwtproject.org 
 202.152.192.181 googledrive.com *.googledrive.com googlegroups.com *.googlegroups.com googleplus.com
 216.58.220.9	*.blogger.com blogger.com *.blogspot.??
 173.194.194.133 *.blogspot.com *.blogblog.com
 202.152.192.181	*.chromium.org chromium.org chrome.com *.chrome.com
-203.208.49.163 android.com www.android.com source.android.com market.android.com
-202.152.192.181	*.android.com www.androidify.com
+202.152.192.181	android.com *.android.com www.androidify.com
 202.152.192.181	chrome.angrybirds.com
-203.208.49.163 g.co goo.gl plus.url.google.com
-203.208.49.163 accounts.google.com accounts.l.google.com
-203.208.49.163 code.google.com code.l.google.com googlecode.com googlesource.com *.googlesource.com
-202.152.192.181 *.googlecode.com
-203.208.49.163 scholar.google.com scholar.l.google.com scholar.google.com.hk
-203.208.49.163 ditu.google.com
-203.208.49.163 translate.google.com
-203.208.49.163 mt?.google.com dl.google.com dl-ssl.google.com
-203.208.49.163 google.org www.google.org
-203.208.49.163 google.cn *.google.cn *.google.com.cn
-202.152.192.181 *.withgoogle.com withgoogle.com *.googlelabs.com *.google.org www.thinkwithgoogle.com thinkwithgoogle.com
+202.152.192.181 g.co goo.gl
+202.152.192.181 *.googlecode.com googlecode.com googlesource.com *.googlesource.com
+202.152.192.181 google.org *.google.org
+202.152.192.181 *.withgoogle.com withgoogle.com *.googlelabs.com www.thinkwithgoogle.com thinkwithgoogle.com
 202.152.192.181	panoramio.com *.panoramio.com
 202.152.192.181	www.webmproject.org
 202.152.192.181	golang.org *.golang.org feeds.feedburner.com
+203.208.49.163 google.cn *.google.cn *.google.com.cn dl.google.com
 #Google other↑
 #Google Wildcards↓
 202.152.192.181 google.com *.google.com google.com.?? *.google.com.?? google.?? *.google.?? google.co.?? *.google.co.??
