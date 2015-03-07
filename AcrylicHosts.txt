@@ -1,13 +1,13 @@
 ﻿﻿#+BEGIN
-#+UPDATE_TIME 2015-02-25 22:22
+#+UPDATE_TIME 2015-03-07 19:20
 #+MESSAGE
 #######################################################################
 #
 #  Acrylated imouto.host
-#  #Ver : 2.27.0535.B
-#  #Update Time : 2015-02-25 22:22
+#  #Ver : 2.27.0536.0
+#  #Update Time : 2015-03-07 19:20
 #  #Fix & Bug : 
-#  # 2.27.0535.B: Google, Instagram
+#  # 2.27.0536.0: Twitter
 #
 #######################################################################
 #+MESSAGE_END
@@ -30,13 +30,14 @@
 #WordPress START
 66.155.11.243	wordpress.com
 68.232.44.111	s?.wp.com s.wordpress.org s.wordpress.com s?.wordpress.com
-68.232.35.127 *.w.org
+192.229.144.127 *.w.org
 68.232.44.119	s.stats.wordpress.com
 66.155.9.238	lb.wordpress.com zh.wordpress.com zh-sg.wordpress.com zh-cn.wordpress.com dashboard.wordpress.com forums.wordpress.com en.forums.wordpress.com en.blog.wordpress.com stats.wordpress.com wpcom.wordpress.com lucifr.wordpress.com botd2.wordpress.com r-login.wordpress.com
 #WordPress END
 
 #Microsoft Live START
 134.170.108.26	onedrive.live.com
+134.170.108.152 *.users.storage.live.com
 204.79.197.213	skyapi.onedrive.live.com storage.live.com *.storage.live.com *.livefilestore.com
 68.232.34.200 *.vo.msecnd.net
 #Microsoft Live END
@@ -55,27 +56,29 @@
 #GitHub END
 
 #Box.com START
-74.112.184.85 www.box.com
 74.112.184.90 box.com
 74.112.184.88 app.box.com
 74.112.184.87 *.app.box.com
-74.112.184.70 *.box.com
+74.112.184.85 *.box.com
 #Box.com END
 
 #SoundCloud START
+68.232.44.127 *.soundcloud.com
 68.232.45.96	ec-media.soundcloud.com
+68.232.46.220 ec-rtmp-media.soundcloud.com
 178.249.139.140	developers.soundcloud.com
 68.232.44.96	*.sndcdn.com
+54.192.127.227 cf-media.sndcdn.com
 203.77.190.0	soundcloud.hs.llnwd.net #JP CDN
 203.77.191.0	soundcloud.hs.llnwd.net #JP CDN
 111.119.3.1	soundcloud.hs.llnwd.net #JP CDN
 111.119.3.129	soundcloud.hs.llnwd.net #JP CDN
+54.76.196.137 eventlogger.soundcloud.com eventgateway.soundcloud.com
 66.228.50.217	blog.soundcloud.com
 54.241.38.163	help.soundcloud.com
 54.215.15.50	help.soundcloud.com
 66.6.42.22	status.soundcloud.com
 66.6.43.22	status.soundcloud.com
-68.232.44.127 *.soundcloud.com
 #SoundCloud END
 
 #DeviantART START
@@ -86,12 +89,13 @@
 #DeviantART END
 
 #XDA START
-68.232.35.229 cdn.www.xda-developers.com img4.media.xda-developers.com
-68.232.35.96 cdn?.xda-developers.com cdn-img.xda-developers.com clickcdn.xda-developers.com
+68.232.44.229 cdn.www.xda-developers.com img4.media.xda-developers.com
+192.229.144.96 cdn?.xda-developers.com cdn-www.xda-developers.com cdn-img.xda-developers.com clickcdn.xda-developers.com
 #XDA END
 
 #Gravatar START
-72.21.91.121 www.gravatar.com ?.gravatar.com
+68.232.44.121 www.gravatar.com ?.gravatar.com
+
 #Gravatar END
 
 #Amazon S3 START
@@ -115,7 +119,6 @@
 #FlipBoard END
 
 #Twitter START
-23.74.226.237 preview.cdn.twitter.com
 103.245.222.185 pay.twitter.com
 173.236.110.98 twitpic.com *.twitpic.com
 199.7.83.42 vpn.twttr.com
@@ -128,16 +131,16 @@
 199.16.158.78 support.twitter.com
 199.16.158.79 r.twimg.com
 199.16.158.80 syndication.twimg.com
-199.16.158.113 syndication.twitter.com syndication-o.twimg.com cdn.syndication.twimg.com
+199.16.158.113 syndication.twitter.com syndication-o.twimg.com
 199.16.158.82 image-proxy-origin.twimg.com
 199.16.158.83 urls-real.api.twitter.com
 199.16.158.84 upload.twitter.com
 192.30.252.129 partnerdata.twttr.com
 192.30.252.130 first-tweets.com
 192.30.252.131 twtr.jp
-199.96.57.6 platform.twitter.com cdn.api.twitter.com
-199.96.57.7 *.twimg.com
-199.96.57.8 cdn.syndication.twitter.com
+203.80.97.18 a5.twimg.com
+192.229.237.25 *.twimg.com status.twitter.com
+184.84.204.56 cdn.syndication.twitter.com cdn.syndication.twimg.com preview.cdn.twitter.com platform.twitter.com cdn.api.twitter.com
 #Twitter END
 
 #Facebook START
@@ -176,7 +179,7 @@
 #Flickr END
 
 #imgur START
-23.235.47.193	imgur.com *.imgur.com
+103.245.222.193	imgur.com *.imgur.com
 #imgur END
 
 #DuckDuckGo START
@@ -212,7 +215,7 @@
 202.152.192.181	*.youtube.com youtube.com youtu.be *.youtube-nocookie.com *.ytimg.com manifest.googlevideo.com redirector.googlevideo.com redirector.c.youtube.com
 173.194.194.121 apiblog.youtube.com
 173.194.194.117 stage.data.youtube.com upload.video.google.com
-#203.66.168.119 *.googlevideo.com
+#207.226.141.57 *.googlevideo.com
 #Youtube↑
 #Appspot↓
 173.194.196.141	appspot.com *.appspot.com 
@@ -224,22 +227,17 @@
 202.152.192.181	gstatic.com *.gstatic.com
 #Gstatic↑
 #Gmail↓
-202.152.192.181	gmail.com *.gmail.com *.googlemail.com
+202.152.192.181	gmail.com www.gmail.com m.gmail.com googlemail.com www.googlemail.com m.googlemail.com
+64.233.189.108 smtp.gmail.com smtp.googlemail.com imap.gmail.com imap.googlemail.com pop.gmail.com pop.googlemail.com
 74.125.207.109    gmail-pop.l.google.com
-74.125.69.16    pop.googlemail.com
 74.125.69.16    googlemail-pop.l.google.com
-74.125.69.109    smtp.gmail.com
 74.125.69.109    gmail-smtp-msa.l.google.com
 173.194.65.109    gmail-smtp.l.google.com
 74.125.201.27    gmail-smtp-in.l.google.com
 74.125.201.14    gmr-smtp-in.l.google.com
-74.125.69.16    smtp.googlemail.com
 74.125.69.16    googlemail-smtp.l.google.com
-74.125.193.109    imap.gmail.com
 74.125.193.108    gmail-imap.l.google.com
-74.125.69.16    imap.googlemail.com
 74.125.69.16    googlemail-imap.l.google.com
-74.125.193.108    pop.gmail.com
 #Gmail↑
 #Google other↓
 64.233.189.192	supl.google.com 
@@ -260,7 +258,8 @@
 202.152.192.181	panoramio.com *.panoramio.com
 202.152.192.181	www.webmproject.org
 202.152.192.181	golang.org *.golang.org feeds.feedburner.com
-203.208.49.163 google.cn *.google.cn *.google.com.cn dl.google.com
+202.152.192.181 gmodules.com *.gmodules.com
+203.208.49.163 google.cn *.google.cn *.google.com.cn dl.google.com fonts.googleapis.com
 #Google other↑
 #Google Wildcards↓
 202.152.192.181 google.com *.google.com google.com.?? *.google.com.?? google.?? *.google.?? google.co.?? *.google.co.??
@@ -314,12 +313,9 @@
 108.160.166.42	www.dropbox.com www.v.dropbox.com
 108.160.161.147 api.dropbox.com api-notify.dropbox.com api.v.dropbox.com
 107.20.154.85	api-content.dropbox.com
-108.160.165.93	d.dropbox.com api-d.dropbox.com d.v.dropbox.com ##
-108.160.165.93	client*.dropbox.com ##
-108.160.165.93	client-lb.dropbox.com ##
-108.160.165.93	block.dropbox.com ##
+107.20.145.190 photos.dropbox.com photos-?.dropbox.com photos-thumb.x.dropbox.com
 107.20.134.222	dl.dropbox.com dl-web.dropbox.com dl-balancer.x.dropbox.com
-54.204.8.181	dl.dropboxusercontent.com
+54.204.8.181	dl.dropboxusercontent.com duc-balancer.x.dropbox.com
 54.230.75.83	forums.dropbox.com
 108.160.165.93	notify*.dropbox.com ##
 204.236.220.7 dl-client*.dropbox.com
