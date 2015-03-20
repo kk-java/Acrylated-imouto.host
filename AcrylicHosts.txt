@@ -7,7 +7,7 @@
 #  #Ver : 2.27.0536.0
 #  #Update Time : 2015-03-07 19:20
 #  #Fix & Bug : 
-#  # 2.27.0536.0: Twitter
+#  # 2.27.0536.0: 
 #
 #######################################################################
 #+MESSAGE_END
@@ -118,36 +118,11 @@
 54.225.107.20	beacon.flipboard.com
 #FlipBoard END
 
-#Twitter START
-103.245.222.185 pay.twitter.com
-173.236.110.98 twitpic.com *.twitpic.com
-199.7.83.42 vpn.twttr.com
-199.16.158.72 twitter.com www.twitter.com
-199.16.158.73 api.twitter.com
-185.45.5.45 *.twitter.com
-199.16.158.75 *.tweetdeck.com tweetdeck.com td.twitter.com tdweb.twitter.com tweetdeck.twitter.com
-199.16.158.76 t.co
-199.16.158.77 mobile.twitter.com
-199.16.158.78 support.twitter.com
-199.16.158.79 r.twimg.com
-199.16.158.80 syndication.twimg.com
-199.16.158.113 syndication.twitter.com syndication-o.twimg.com
-199.16.158.82 image-proxy-origin.twimg.com
-199.16.158.83 urls-real.api.twitter.com
-199.16.158.84 upload.twitter.com
-192.30.252.129 partnerdata.twttr.com
-192.30.252.130 first-tweets.com
-192.30.252.131 twtr.jp
-203.80.97.18 a5.twimg.com
-192.229.237.25 *.twimg.com status.twitter.com
-184.84.204.56 cdn.syndication.twitter.com cdn.syndication.twimg.com preview.cdn.twitter.com platform.twitter.com cdn.api.twitter.com
-#Twitter END
-
 #Facebook START
 203.80.97.18 *.ak.facebook.com *.ak.fbcdn.net
 199.7.91.13 fbcdn.net
-31.13.87.6 *.fbcdn.net
-31.13.87.17 *.facebook.com facebook.com
+31.13.87.21 *.fbcdn.net
+31.13.87.16 *.facebook.com facebook.com
 173.223.85.106 s-static.ak.facebook.com
 184.87.99.47 s-static.ak.fbcdn.net
 184.87.198.117 connect.facebook.net
