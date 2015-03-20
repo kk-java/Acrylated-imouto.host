@@ -194,7 +194,7 @@
 #207.226.141.57 *.googlevideo.com
 #Youtube↑
 #Appspot↓
-173.194.214.141	appspot.com *.appspot.com 
+202.152.192.166	appspot.com *.appspot.com 
 #Appspot↑
 #Googleusercontent↓
 216.58.220.65	*.googleusercontent.com *.ggpht.com
