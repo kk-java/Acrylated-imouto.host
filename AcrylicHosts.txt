@@ -200,6 +200,7 @@
 #Google Services START
 #Googleapis↓
 216.58.220.65 *storage.googleapis.com
+207.226.141.57 *.c.bigcache.googleapis.com
 216.58.220.42	googleapis.com *.googleapis.com *.clients6.google.com
 202.152.192.181 mt0.googleapis.com mt1.googleapis.com mt2.googleapis.com mt3.googleapis.com
 #Googleapis↑
@@ -218,7 +219,7 @@
 #207.226.141.57 *.googlevideo.com
 #Youtube↑
 #Appspot↓
-173.194.196.141	appspot.com *.appspot.com 
+173.194.214.141	appspot.com *.appspot.com 
 #Appspot↑
 #Googleusercontent↓
 216.58.220.65	*.googleusercontent.com *.ggpht.com
@@ -259,6 +260,7 @@
 202.152.192.181	www.webmproject.org
 202.152.192.181	golang.org *.golang.org feeds.feedburner.com
 202.152.192.181 gmodules.com *.gmodules.com
+207.226.141.57 *.c.pack.google.com *.c.docs.google.com
 203.208.49.163 google.cn *.google.cn *.google.com.cn dl.google.com fonts.googleapis.com
 #Google other↑
 #Google Wildcards↓
