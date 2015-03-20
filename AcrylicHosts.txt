@@ -311,9 +311,9 @@
 #Wikipedia END
 
 #Dropbox START
-108.160.166.49	dropbox.com
-108.160.166.42	www.dropbox.com www.v.dropbox.com
-108.160.161.147 api.dropbox.com api-notify.dropbox.com api.v.dropbox.com
+108.160.167.209	dropbox.com
+108.160.166.182	www.dropbox.com www.v.dropbox.com
+108.160.166.125 api.dropbox.com api-notify.dropbox.com api.v.dropbox.com
 107.20.154.85	api-content.dropbox.com
 107.20.145.190 photos.dropbox.com photos-?.dropbox.com photos-thumb.x.dropbox.com
 107.20.134.222	dl.dropbox.com dl-web.dropbox.com dl-balancer.x.dropbox.com
