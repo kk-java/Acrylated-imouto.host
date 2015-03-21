@@ -63,7 +63,7 @@
 #Box.com END
 
 #SoundCloud START
-68.232.44.127 *.soundcloud.com
+68.232.44.127 soundcloud.com *.soundcloud.com
 68.232.45.96	ec-media.soundcloud.com
 68.232.46.220 ec-rtmp-media.soundcloud.com
 178.249.139.140	developers.soundcloud.com
@@ -99,9 +99,9 @@
 #Gravatar END
 
 #Amazon S3 START
-54.231.65.24 s3.amazonaws.com *.s3.amazonaws.com
+54.231.66.65 s3.amazonaws.com *.s3.amazonaws.com
 54.231.232.217 s3-us-west-1.amazonaws.com *.s3-us-west-1.amazonaws.com
-54.231.164.72 s3-us-west-2.amazonaws.com *.s3-us-west-2.amazonaws.com
+54.231.168.73 s3-us-west-2.amazonaws.com *.s3-us-west-2.amazonaws.com
 54.231.225.9 s3-ap-northeast-1.amazonaws.com *.s3-ap-northeast-1.amazonaws.com
 54.231.243.121 s3-ap-southeast-1.amazonaws.com *.s3-ap-southeast-1.amazonaws.com
 54.231.252.28 s3-ap-southeast-2.amazonaws.com *.s3-ap-southeast-2.amazonaws.com
@@ -118,7 +118,9 @@
 54.225.107.20	beacon.flipboard.com
 #FlipBoard END
 
-#Facebook START
+#Instagram START
+203.80.97.18 *.ak.instagram.com
+31.13.70.10 *.cdninstagram.com
 203.80.97.18 *.ak.facebook.com *.ak.fbcdn.net
 199.7.91.13 fbcdn.net
 31.13.87.21 *.fbcdn.net
@@ -126,11 +128,6 @@
 173.223.85.106 s-static.ak.facebook.com
 184.87.99.47 s-static.ak.fbcdn.net
 184.87.198.117 connect.facebook.net
-#Facebook END
-
-#Instagram START
-203.80.97.18 *.ak.instagram.com
-31.13.70.10 *.cdninstagram.com
 #Instagram END
 
 #Akamai START
@@ -175,7 +172,7 @@
 #Google Services START
 #Googleapis↓
 216.58.220.65 *storage.googleapis.com
-207.226.141.57 *.c.bigcache.googleapis.com
+207.226.141.57 *.c.bigcache.googleapis.com *.twimg.com
 216.58.220.42	googleapis.com *.googleapis.com *.clients6.google.com
 202.152.192.181 mt0.googleapis.com mt1.googleapis.com mt2.googleapis.com mt3.googleapis.com
 #Googleapis↑
@@ -235,7 +232,7 @@
 202.152.192.181	www.webmproject.org
 202.152.192.181	golang.org *.golang.org feeds.feedburner.com
 202.152.192.181 gmodules.com *.gmodules.com
-207.226.141.57 *.c.pack.google.com *.c.docs.google.com
+207.226.141.57 *.c.pack.google.com *.c.docs.google.com *.twitter.com twitter.com
 203.208.49.163 google.cn *.google.cn *.google.com.cn dl.google.com fonts.googleapis.com
 #Google other↑
 #Google Wildcards↓
@@ -286,15 +283,11 @@
 #Wikipedia END
 
 #Dropbox START
-108.160.167.209	dropbox.com
-108.160.166.182	www.dropbox.com www.v.dropbox.com
-108.160.166.125 api.dropbox.com api-notify.dropbox.com api.v.dropbox.com
 107.20.154.85	api-content.dropbox.com
 107.20.145.190 photos.dropbox.com photos-?.dropbox.com photos-thumb.x.dropbox.com
 107.20.134.222	dl.dropbox.com dl-web.dropbox.com dl-balancer.x.dropbox.com
 54.204.8.181	dl.dropboxusercontent.com duc-balancer.x.dropbox.com
 54.230.75.83	forums.dropbox.com
-108.160.165.93	notify*.dropbox.com ##
 204.236.220.7 dl-client*.dropbox.com
 #Dropbox END
 64.90.32.4 objects.dreamhost.com
