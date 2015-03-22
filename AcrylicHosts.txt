@@ -13,23 +13,23 @@
 #+MESSAGE_END
 
 #AdBlock START
-127.0.0.1	ad.* ads.* *.admob.com *.doubleclick.net
+127.0.0.1	/^ads?\..*$ /^ad?\..*$ /^.*\.admob\.com /^.*\.doubleclick\.net
 #AdBlock END
 
 #ccFox.info START
 66.155.11.238	ccfox.info
 66.155.11.238	myimouto.wordpress.com
-192.0.72.3	myimouto.files.wordpress.com *.files.wordpress.com
+192.0.72.3	myimouto.files.wordpress.com
 50.63.202.23	imouto.me
 #ccFox.info END
 
 #ProjectH START
-106.186.31.197	projecth.us *.projecth.us
+106.186.31.197	projecth.us /.*\.projecth\.us
 #ProjectH END
 
 #WordPress START
 66.155.11.243	wordpress.com
-68.232.44.111	s?.wp.com s.wordpress.org s.wordpress.com s?.wordpress.com
+68.232.44.111	/s[0-2]\.wp\.com /i[0-2]\.wp\.com s.wordpress.org s.wordpress.com /s[0-9]\.wordpress\.com
 192.229.144.127 *.w.org
 68.232.44.119	s.stats.wordpress.com
 66.155.9.238	lb.wordpress.com zh.wordpress.com zh-sg.wordpress.com zh-cn.wordpress.com dashboard.wordpress.com forums.wordpress.com en.forums.wordpress.com en.blog.wordpress.com stats.wordpress.com wpcom.wordpress.com lucifr.wordpress.com botd2.wordpress.com r-login.wordpress.com
@@ -58,8 +58,8 @@
 #Box.com START
 74.112.184.90 box.com
 74.112.184.88 app.box.com
-74.112.184.87 *.app.box.com
-74.112.184.85 *.box.com
+74.112.184.87 /.*\.app\.box\.com
+74.112.184.85 /.*\.box\.com
 #Box.com END
 
 #SoundCloud START
@@ -89,7 +89,7 @@
 #DeviantART END
 
 #XDA START
-68.232.44.229 cdn.www.xda-developers.com img4.media.xda-developers.com
+68.232.44.229 cdn.www.xda-developers.com img.media.xda-developers.com /img[1-4]\.media\.xda\-developers\.com
 192.229.144.96 cdn?.xda-developers.com cdn-www.xda-developers.com cdn-img.xda-developers.com clickcdn.xda-developers.com
 #XDA END
 
